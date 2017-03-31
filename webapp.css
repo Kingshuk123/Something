@@ -1,0 +1,284 @@
+#wrapper	{
+	display: block;
+}
+
+h1 {
+	color:chartreuse;
+}
+
+.button1 {
+	background-color:red;
+	width:75px;
+	height:50px;
+	font-size:80%;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+
+}
+
+.button2 {
+	background-color:blue;
+	width:75px;
+	height:50px;
+	font-size:80%;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif
+}
+
+
+.button4 {
+	background-color:lightblue;
+	width:100px;
+	height:75px;
+	font-size:100%;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif
+}
+
+.button5 {
+	background-color:#ADADAD;
+	width:100px;
+	height:75px;
+	font-size:100%;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif
+	
+}
+
+.button6 {
+	background-color:purple;
+	width:100px;
+	height:75px;
+	font-size:100%;
+}
+
+body {
+	background-color:orange;
+}
+
+.Button7 {
+	height:50px;
+	width:100px;
+	background-color:orange;
+	border:none;
+	font-size:24px;
+	margin-right:25px;
+}
+
+
+#hidden	{
+	position: absolute;
+	height: 305px;
+	width: auto;	
+	display: block;
+}
+
+/* body style */
+.button1 {
+	background-color:red;
+	width:100px;
+	height:75px;
+	font-size:100%;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+body {
+	background-color:rgb(204, 16, 190);
+}
+
+/* text style */
+
+#text	{
+	position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: chartreuse;
+	display:none;
+}
+.button2 {
+	background-color:blue;
+	width:100px;
+	height:75px;
+	font-size:100%;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	
+}
+
+/* button style */
+
+
+.button {
+	display:none;
+	background-color: #2BD9EA;
+	height: 105px;
+	width: 250px;
+	border-radius: 50px;
+	position: relative;
+	border-bottom-width: thick;
+	margin-top: 50px;
+	left: 23%;
+	top: 120px;
+	border-color: #BFBFBF;
+	border: 1px solid #333333;
+	font-size: 20px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+.button3 {
+	background-color:green;
+	width:100px;
+	height:75px;
+	font-size:100%;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	
+}
+
+
+/* button animation */
+
+#animation:hover {
+	animation-name: pulse_animation;
+	animation-duration: 2s;
+	transform-origin: 70% 70%;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+#animation2:hover {
+	animation-name: pulse_animation;
+	animation-duration: 2s;
+	transform-origin: 70% 70%;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+
+@keyframes pulse_animation {
+0% { transform: scale(1.1); left: 23.1%; background-color: #0035FF}
+50% { transform: scale(1.25); left: 23.35%; background-color:#06FFF8}
+100% { transform: scale(1.1); left: 23.1%; background-color:#0035FF}
+}
+
+@media screen and (min-width: 550px) {
+	.button	{
+	left: 32%;
+	}
+	@keyframes pulse_animation {
+	0% { transform: scale(1.1); left: 32.2%; background-color: #0035FF}
+	50% { transform: scale(1.25); left: 32.35%; background-color:#06FFF8}
+	100% { transform: scale(1.1); left: 32.1%; background-color:#0035FF}
+	}
+}
+@media screen and (min-width: 720px) {
+	.button	{
+	left: 33%;
+	}
+	@keyframes pulse_animation {
+	0% { transform: scale(1.1); left: 33.2%; background-color: #0035FF}
+	50% { transform: scale(1.25); left: 33.35%; background-color:#06FFF8}
+	100% { transform: scale(1.1); left: 33.1%; background-color:#0035FF}
+	}
+}
+@media screen and (min-width: 880px) {
+	.button	{
+	left: 35%;
+	}
+	@keyframes pulse_animation {
+	0% { transform: scale(1.1); left: 35.2%; background-color: #0035FF}
+	50% { transform: scale(1.25); left: 35.35%; background-color:#06FFF8}
+	100% { transform: scale(1.1); left: 35.1%; background-color:#0035FF}
+	}
+.button4 {
+	background-color:lightblue;
+	width:100px;
+	height:75px;
+	font-size:100%;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+@media screen and (min-width: 1000px) {
+	.button	{
+	left: 37%;
+	}
+	@keyframes pulse_animation {
+	0% { transform: scale(1.1); left: 37.2%; background-color: #0035FF}
+	50% { transform: scale(1.25); left: 37.35%; background-color:#06FFF8}
+	100% { transform: scale(1.1); left: 37.1%; background-color:#0035FF}
+	}
+}
+@media screen and (min-width: 1100px) {
+	.button	{
+	left: 39%;
+	}
+	@keyframes pulse_animation {
+	0% { transform: scale(1.1); left: 39.2%; background-color: #0035FF}
+	50% { transform: scale(1.25); left: 39.35%; background-color:#06FFF8}
+	100% { transform: scale(1.1); left: 39.1%; background-color:#0035FF}
+	}
+}
+@media screen and (min-width: 1200px) {
+	.button	{
+	left: 40%;
+	}
+	@keyframes pulse_animation {
+	0% { transform: scale(1.1); left: 40.2%; background-color: #0035FF}
+	50% { transform: scale(1.25); left: 40.35%; background-color:#06FFF8}
+	100% { transform: scale(1.1); left: 40.1%; background-color:#0035FF}
+	}
+}
+@media screen and (min-width: 1300px) {
+	.button	{
+	left: 41%;
+	}
+	@keyframes pulse_animation {
+	0% { transform: scale(1.1); left: 41.2%; background-color: #0035FF}
+	50% { transform: scale(1.25); left: 41.35%; background-color:#06FFF8}
+	100% { transform: scale(1.1); left: 41.1%; background-color:#0035FF}
+	}
+}
+@media screen and (min-width: 1500px) {
+	.button	{
+	left: 42%;
+	}
+	@keyframes pulse_animation {
+	0% { transform: scale(1.1); left: 42.2%; background-color: #0035FF}
+	50% { transform: scale(1.25); left: 42.35%; background-color:#06FFF8}
+	100% { transform: scale(1.1); left: 42.1%; background-color:#0035FF}
+	}
+}
+@media screen and (min-width: 1700px) {
+	.button	{
+	left: 43%;
+	}
+	@keyframes pulse_animation {
+	0% { transform: scale(1.1); left: 43.2%; background-color: #0035FF}
+	50% { transform: scale(1.25); left: 43.35%; background-color:#06FFF8}
+	100% { transform: scale(1.1); left: 43.1%; background-color:#0035FF}
+	}
+}
+@media screen and (min-width: 2000px) {
+	.button	{
+	left: 43.5%;
+	}
+	@keyframes pulse_animation {
+	0% { transform: scale(1.1); left: 43.7%; background-color: #0035FF}
+	50% { transform: scale(1.25); left: 43.85%; background-color:#06FFF8}
+	100% { transform: scale(1.1); left: 43.6%; background-color:#0035FF}
+	}
+}
+@media screen and (min-width: 2200px) {
+	.button	{
+	left: 44%;
+	}
+	@keyframes pulse_animation {
+	0% { transform: scale(1.1); left: 44.2%; background-color: #0035FF}
+	50% { transform: scale(1.25); left: 44.35%; background-color:#06FFF8}
+	100% { transform: scale(1.1); left: 44.1%; background-color:#0035FF}
+	}
+}
+@media screen and (min-width: 2400px) {
+	.button	{
+	left: 45%;
+	}
+	@keyframes pulse_animation {
+	0% { transform: scale(1.1); left: 45.2%; background-color: #0035FF}
+	50% { transform: scale(1.25); left: 45.35%; background-color:#06FFF8}
+	100% { transform: scale(1.1); left: 45.1%; background-color:#0035FF}
+	}
+}
